@@ -28,24 +28,24 @@ public class Main {
                     if(j>0){//se se tiver coluna a esquerda sobrando
                         System.out.printf("Vizinho a esquerda: %d \n",  matriz[i][j-1]);
                     }else{
-                        System.out.printf("Vizinho a esquerda não existe \n ");
+                        System.out.print("Vizinho a esquerda não existe \n ");
                     }
 
                     if(j<m-1){//se tiver coluna a direita sobrando
                         System.out.printf("Vizinho a direita: %d \n",   matriz[i][j+1]);
                     }else{
-                        System.out.printf("Vizinho a direita não existe \n" );
+                        System.out.print("Vizinho a direita não existe \n" );
                     }
 
                     if(i>0){//se existir linha a cima
                         System.out.printf("Vizinho em cima: %d\n",  matriz[i-1][j]);
                     }else{
-                        System.out.printf("Vizinho acima não existe\n");
+                        System.out.print("Vizinho acima não existe\n");
                     }
                     if(i < n - 1){// se existir linha em baixo
                         System.out.printf("Vizinho a baixo: %d\n",  matriz[i+1][j]);
                     }else{
-                        System.out.printf("Vizinho abaixo não existe \n");
+                        System.out.print("Vizinho abaixo não existe \n");
                     }
                     System.out.println();
                 }
